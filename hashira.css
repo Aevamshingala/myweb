@@ -1,0 +1,55 @@
+@keyframes floatingleft {
+  0%{
+    transform: translateY(0.75rem) rotate(2.5deg)
+  };
+
+  50%{
+    transform: translateY(-0.75rem) rotate(-2.5deg)
+  };
+
+  100%{
+    transform: translateY(0.75rem) rotate(2.5deg);
+  }
+}
+
+@keyframes floatingright {
+  0%{
+    transform: translatex(0.75rem) rotate(2.5deg)
+  };
+
+  50%{
+    transform: translatex(-0.75rem) rotate(-2.5deg)
+  };
+
+  100%{
+    transform: translatex(0.75rem) rotate(2.5deg);
+  }
+}
+
+.box{
+  animation: floatingleft 4s ease-in-out infinite!important ; 
+}
+.box2{
+  animation: floatingright 4s ease-in-out infinite!important ; 
+}
+.box img {
+  width: 40vw;
+  height: 50vh;
+  margin-top: 100px;
+  aspect-ratio: 3/2;
+}
+.box2 img {
+  width: 40vw;
+  height: 50vh;
+  margin-top: 100px;
+  aspect-ratio: 3/2;
+}
+
+.infor{
+  margin-top: 100px;
+  margin-left: 15px;
+}
+.infor p{
+border-top: 2px solid white;
+padding: 20px
+}

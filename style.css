@@ -1,0 +1,119 @@
+
+.lobster-regular {
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bg-green{
+  background-color: #85c637;
+}
+.bg-lightgreen{
+  background-color: #6a8e38;
+}
+
+.colour{
+  mix-blend-mode:lighten;
+}
+
+.lightgreen{
+  border: 2px solid #6a8e38;
+  border-radius: 20px;
+}
+
+.green{
+  border: 2px solid #85c637;
+  border-radius: 20px;
+}
+
+.logo img {
+  height: 12vh;
+}
+
+.gray{
+  background-color: #474b4f;
+}
+
+.lightgray{
+  background-color: #6b6e70;
+}
+
+.name{
+  font-family:"Protest Revolution", sans-serif;
+}
+
+.text{
+  background:linear-gradient(90deg, #255453, rgb(39 149 135), rgb(253 253 241));
+  background-clip: text;
+  color: transparent;
+}
+
+.img img{
+ width: 100vw;
+}
+
+.photo img{
+  width: 35vw;
+ }
+
+ .char {
+  font-family: "Protest Revolution", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+ }
+
+ .shap{
+  border-radius: 50%;
+  transition: all ease 0.5s;
+ }
+
+
+ .character{
+  margin-top: 20vh;
+ }
+
+.hero{
+  width: 20vw;
+  height: 7vh;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+
+.hashira{
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+
+.photo{
+  margin-left: 10vw;
+}
+
+.shap2{
+  border-radius: 20%;
+  width: 20vw;
+  margin-top: 2vw;
+  margin-left: 2vw;
+  transition: all ease 0.5s;
+}
+
+.intro img{
+  aspect-ratio: 3/2;
+  object-fit: contain;
+}
+
+.shap2:hover{
+  scale: 1.5;
+}
+
+
+.shap:hover{
+  scale: 1.2;
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 50%;
+
+ }
